@@ -1,0 +1,38 @@
+Given a large chunk of text, identify the most frequently occurring trigram in it. If there are multiple trigrams with the same frequency, then print the one which occurred first.
+
+Assume that trigrams are groups of three consecutive words in the same sentence which are separated by nothing but a single space and are case insensitive. The size of the input will be less than 10 kilobytes.
+
+Input: I love games. I love to code.
+Here "games I love" is not a trigram because all the three words in trigram should be from the 
+same sentence.
+Input Format
+
+A large chunk of text.
+
+Constraints
+
+The input contains lowercase or uppercase alphabets, whitespaces and dots.
+
+Output Format
+
+The most popular trigram - three words, with nothing but a space in between them. The output should be in lowercase. (If a trigram ends with dot then you should remove the dot.)
+
+Sample Input 0
+
+I came from the moon. He went to the other room. She went to the drawing room. 
+Sample Output 0
+
+went to the
+Explanation 0
+
+Here, "went to the" is the only trigram that has occurred maximum number of times.
+
+Sample Input 1
+
+I love to dance. I like to dance I. like to play chess.
+Sample Output 1
+
+i love to
+Explanation 1
+
+Here, Trigram "i love to" has occurred 1 time, "i like to" has also occurred 1 time. But since "i love to" occurred first, it will be the answer.

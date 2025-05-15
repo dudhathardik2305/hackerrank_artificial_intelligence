@@ -1,0 +1,8 @@
+Consider the following binary image where  is the background, and  represents a pixel on an object.
+
+000110001010
+111011110001
+111010010010
+100000000100 
+If you segment this image using an algorithm based on simple 8 pixel connectivity, how many 8-connected objects do you obtain? Enter the appropriate integer in the text box below.
+Alternatively, you may submit a program which computes and displays the required integer.
